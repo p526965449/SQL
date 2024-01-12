@@ -1,7 +1,9 @@
 -- The teams that play professional baseball can change every year 
 -- (e.g. expansion teams, teams moving, renaming, etc). List the year 
 -- and team name of every baseball team that has ever played.
-
+SELECT id, name FROM teams;
+ORDER BY AESC;
+LIMIT 3 ;
 -- Expected result: 2955 rows, ending with
 --
 -- | 2020 | Seattle Mariners                  |
